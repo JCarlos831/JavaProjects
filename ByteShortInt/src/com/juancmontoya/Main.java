@@ -3,26 +3,24 @@ package com.juancmontoya;
 public class Main {
 
     public static void main(String[] args) {
-        // Data types for whole numbers
+        // 1. Create a byte variable and set it to any valid byte number.
 
-        // int has a width of 32
-        int myMinValue = -2147483648;
-        int myMaxValue = 2147483647;
-        int myTotal = (myMinValue/2);
-        System.out.println("myTotal = " + myTotal);
+        byte myByte = 30;
 
-        // byte has a width of 8
-        byte myMinByteValue = -128;
-        byte myMaxByteValue = 127;
-        byte myNewByteValue = (byte) (myMinByteValue/ 2);
-        System.out.println("myNewByteValue = " + myNewByteValue);
+        // 2. Create a short variable and set it to any valid short number.
 
-        // short has a width of 16
-        short myMinShortValue = -32768;
-        short myMaxShortValue = 32767;
-        short myNewShortValue = (short) (myMinShortValue/2);
+        short myShort = 100;
 
-        // long has a width of 64
-        long myLongValue = 100L;
+        // 3. Create an int variable and set it to any valid int number.
+
+        int myInt = 2;
+        // 4. Create a variable of type long, and make to equal to
+        //    50000 + 10 times the sum of the byte, plus the short plus the int
+
+        long longTotal = 50000L + (10L * (myByte + myShort + myInt));
+        short shortTotal = (short) (1000 + (10 * (myByte + myShort + myInt)));
+
+        System.out.println("longTotal = " + longTotal);
+        System.out.println("shortTotal = " + shortTotal);
     }
 }
