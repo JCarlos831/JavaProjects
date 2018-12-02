@@ -9,27 +9,38 @@ public class FirstLastDigitSum {
     }
 
     public static int sumFirstAndLastDigit(int number) {
-        int sum = 0;
+//        int sum = 0;
+//
+//        if (number < 0)
+//            return -1;
+//        else if (number < 10)
+//            return number + number;
+//        else if (number < 100) {
+//            while (number > 0) {
+//                int digit = number % 10;
+//                sum += digit;
+//                number /= 10;
+//            }
+//        } else if (number < 1000) {
+//            while (number > 0) {
+//                int digit = number % 10;
+//
+//                sum += digit;
+//
+//                number /= 100;
+//            }
+//        }
+//        return sum;
+//    }
 
         if (number < 0)
             return -1;
-        else if (number < 10)
-            return number + number;
-        else if (number < 100) {
-            while (number > 0) {
-                int digit = number % 10;
-                sum += digit;
-                number /= 10;
-            }
-        } else if (number < 1000) {
-            while (number > 0) {
-                int digit = number % 10;
 
-                sum += digit;
+        int lastDigit = number % 10;
 
-                number /= 100;
-            }
-        }
-        return sum;
+        while (number > 9)
+            number /= 10;
+
+        return number + lastDigit;
     }
 }
