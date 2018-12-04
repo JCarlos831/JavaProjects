@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65b9b920-cabb-4b56-8959-bc2653ad402a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EvenDigitSum.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EvenDigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/AreaCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/out/production/AreaCalculator/AreaCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AreaCalculator/src/AreaCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BarkingDog/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BarkingDog/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BarkingDog/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BarkingDog/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BarkingDog/BarkingDog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BarkingDog/out/production/BarkingDog/BarkingDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BarkingDog/src/BarkingDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/ByteShortInt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/out/production/ByteShortInt/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingChallengeSample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingChallengeSample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingChallengeSample/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingChallengeSample/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingChallengeSample/CodingChallengeSample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingChallengeSample/out/production/CodingChallengeSample/PositiveNegativeZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodingChallengeSample/src/PositiveNegativeZero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DayOfTheWeekChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DayOfTheWeekChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DayOfTheWeekChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DayOfTheWeekChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DayOfTheWeekChallenge/DayOfTheWeekChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DayOfTheWeekChallenge/out/production/DayOfTheWeekChallenge/DayOfTheWeekChallenge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DayOfTheWeekChallenge/src/DayOfTheWeekChallenge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/DecimalComparator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/out/production/DecimalComparator/DecimalComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecimalComparator/src/DecimalComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitSumChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitSumChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitSumChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitSumChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitSumChallenge/DigitSumChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitSumChallenge/out/production/DigitSumChallenge/DigitSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DigitSumChallenge/src/DigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualSumChecker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualSumChecker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualSumChecker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualSumChecker/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualSumChecker/EqualSumChecker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualSumChecker/src/EqualSumChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualityPrinter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualityPrinter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualityPrinter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualityPrinter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualityPrinter/EqualityPrinter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualityPrinter/out/production/EqualityPrinter/IntEqualityPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EqualityPrinter/src/IntEqualityPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstLastDigitSum/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstLastDigitSum/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstLastDigitSum/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstLastDigitSum/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstLastDigitSum/FirstLastDigitSum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstLastDigitSum/out/production/FirstLastDigitSum/FirstLastDigitSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstLastDigitSum/src/FirstLastDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/FloatAndDouble.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/out/production/FloatAndDouble/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatAndDouble/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/ForLoop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/out/production/ForLoop/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ForLoop/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/out/production/HelloWorld/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/src/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/out/production/IfKeywordAndCodeBlocks/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IfKeywordAndCodeBlocks/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/KeywordsAndExpressions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KeywordsAndExpressions/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeapYear/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeapYear/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeapYear/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeapYear/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeapYear/LeapYear.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeapYear/out/production/LeapYear/LeapYear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeapYear/src/LeapYear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MegaBytesConverter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MegaBytesConverter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MegaBytesConverter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MegaBytesConverter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MegaBytesConverter/MegaBytesConverter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MegaBytesConverter/out/production/MegaBytesConverter/MegaBytesConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MegaBytesConverter/src/MegaBytesConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodOverloading/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodOverloading/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodOverloading/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodOverloading/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodOverloading/MethodOverloading.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodOverloading/out/production/MethodOverloading/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodOverloading/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/Methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/out/production/Methods/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Methods/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsDaysCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsDaysCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsDaysCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsDaysCalculator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsDaysCalculator/MinutesToYearsDaysCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsDaysCalculator/out/production/MinutesToYearsDaysCalculator/MinutesToYearsDaysCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinutesToYearsDaysCalculator/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberInWord/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberInWord/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberInWord/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberInWord/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberInWord/NumberInWord.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberInWord/out/production/NumberInWord/NumberInWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberInWord/src/NumberInWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfDaysInMonth/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfDaysInMonth/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfDaysInMonth/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfDaysInMonth/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfDaysInMonth/NumberOfDaysInMonth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfDaysInMonth/out/production/NumberOfDaysInMonth/NumberOfDaysInMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfDaysInMonth/src/NumberOfDaysInMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberPalindrome/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberPalindrome/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberPalindrome/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberPalindrome/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberPalindrome/NumberPalindrome.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberPalindrome/out/production/NumberPalindrome/NumberPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberPalindrome/src/NumberPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/Operators.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/out/production/Operators/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Operators/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayingCat/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayingCat/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayingCat/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayingCat/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayingCat/PlayingCat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayingCat/out/production/PlayingCat/PlayingCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayingCat/src/PlayingCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/SecondsAndMinutesChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/out/production/SecondsAndMinutesChallenge/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondsAndMinutesChallenge/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/StatementsWhiteSpaceAndIndenting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/out/production/StatementsWhiteSpaceAndIndenting/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StatementsWhiteSpaceAndIndenting/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/Strings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/out/production/Strings/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/Sum3And5Challenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/out/production/Sum3And5Challenge/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum3And5Challenge/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOddRange/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOddRange/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOddRange/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOddRange/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOddRange/SumOddRange.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOddRange/out/production/SumOddRange/SumOddRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOddRange/src/SumOddRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/Switch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/out/production/Switch/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Switch/src/com/juancmontoya/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeenNumberChecker/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeenNumberChecker/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeenNumberChecker/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeenNumberChecker/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeenNumberChecker/TeenNumberChecker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeenNumberChecker/src/TeenNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/While.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/out/production/While/com/juancmontoya/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../While/src/com/juancmontoya/Main.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="764341440">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="216" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="216" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EvenDigitSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/EvenDigitSum.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EvenDigitSum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EvenDigitSum" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543886047419" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EvenDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvenDigitSum" />
+      <module name="EvenDigitSum" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EvenDigitSum" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65b9b920-cabb-4b56-8959-bc2653ad402a" name="Default Changelist" comment="" />
+      <created>1543885712515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543885712515</updated>
+      <workItem from="1543885716262" duration="284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="284000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/EvenDigitSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
