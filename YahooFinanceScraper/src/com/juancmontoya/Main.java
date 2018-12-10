@@ -2,14 +2,19 @@ package com.juancmontoya;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        ChromeDriver driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        ChromeDriver driver = new ChromeDriver(options);
 
         driver.navigate().to("https://login.yahoo.com/?.src=finance&.intl=us&.done=https%3A%2F%2Ffinance.yahoo.com%2Fportfolios&add=1");
 
@@ -28,6 +33,12 @@ public class Main {
         driver.findElement(By.xpath("//*[@id=\"main\"]/section/section/div[2]/table/tbody/tr/td[1]/a")).click();
 
         Thread.sleep(5000);
+
+        driver.findElement(By.xpath("//*[@id=\"main\"]/section/section[1]/ul/li[2]/a")).click();
+
+        Thread.sleep(5000);
+
+        // Portfolio Summary
 
         String portfolioSummary = "";
 
@@ -52,6 +63,52 @@ public class Main {
         portfolioSummary += portfolioValue + portfolioDayGain + portfolioDayGainPercent + portfolioTotalGain + portfolioTotalGainPercent;
 
         System.out.println(portfolioSummary);
+
+        // Portfolio Table
+
+        String stockData = "";
+
+        WebElement table = driver.findElement(By.className("tJDbU "));
+
+        List<WebElement> tableRows = table.findElements(By.tagName("tr"));
+
+        for (WebElement tableRow : tableRows) {
+            List<WebElement> tableColumns = tableRow.findElements(By.tagName("td"));
+
+            if (tableColumns.size() > 0) {
+                for (WebElement tableColumn : tableColumns) {
+                    stockData += tableColumn.getText() + ", ";
+                }
+
+                String array3[] = stockData.split(", ");
+
+                String array4[] = array3[0].split("\n");
+                String symbol = array4[0];
+                String lastPrice = array4[1];
+
+                String array5[] = array3[1].split("\n");
+                String priceChange = array5[0];
+                String priceChangePercent = array5[1];
+
+                String shares = array3[2];
+                String costBasis = array3[3];
+                String marketValue = array3[4];
+
+                String array6[] = array3[5].split("\n");
+                String dayGainPriceChange = array6[0];
+                String dayGainPriceChangePercent = array6[1];
+
+                String array7[] = array3[6].split("\n");
+                String totalGainPriceChange = array7[0];
+                String totalGainPriceChangePercent = array7[1];
+
+                System.out.println(symbol + " " + lastPrice  + " " + priceChange + " " + priceChangePercent + " " +
+                        shares + " " + costBasis + " " + marketValue + " " + dayGainPriceChange + " " + dayGainPriceChangePercent + " " +
+                        totalGainPriceChange + " " + totalGainPriceChangePercent);
+//                System.out.println(stockData);
+            }
+            stockData = "";
+        }
 
         driver.quit();
 
