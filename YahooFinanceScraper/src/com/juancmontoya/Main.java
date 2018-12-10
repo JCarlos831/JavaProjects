@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -66,7 +68,7 @@ public class Main {
 
         // Portfolio Table
 
-        String stockData = "";
+        List<String> stockData = new ArrayList<>();
 
         WebElement table = driver.findElement(By.className("tJDbU "));
 
@@ -77,28 +79,29 @@ public class Main {
 
             if (tableColumns.size() > 0) {
                 for (WebElement tableColumn : tableColumns) {
-                    stockData += tableColumn.getText() + ", ";
+//                    stockData += tableColumn.getText() + ", ";
+                    stockData.add(tableColumn.getText());
                 }
 
-                String array3[] = stockData.split(", ");
+//                String array3[] = stockData.split(", ");
 
-                String array4[] = array3[0].split("\n");
+                String[] array4 = stockData.get(0).split("\n");
                 String symbol = array4[0];
                 String lastPrice = array4[1];
 
-                String array5[] = array3[1].split("\n");
+                String[] array5 = stockData.get(1).split("\n");
                 String priceChange = array5[0];
                 String priceChangePercent = array5[1];
 
-                String shares = array3[2];
-                String costBasis = array3[3];
-                String marketValue = array3[4];
+                String shares = stockData.get(2);
+                String costBasis = stockData.get(3);
+                String marketValue = stockData.get(4);
 
-                String array6[] = array3[5].split("\n");
+                String[] array6 = stockData.get(5).split("\n");
                 String dayGainPriceChange = array6[0];
                 String dayGainPriceChangePercent = array6[1];
 
-                String array7[] = array3[6].split("\n");
+                String[] array7 = stockData.get(6).split("\n");
                 String totalGainPriceChange = array7[0];
                 String totalGainPriceChangePercent = array7[1];
 
@@ -107,7 +110,8 @@ public class Main {
                         totalGainPriceChange + " " + totalGainPriceChangePercent);
 //                System.out.println(stockData);
             }
-            stockData = "";
+//            stockData = "";
+            stockData.clear();
         }
 
         driver.quit();
