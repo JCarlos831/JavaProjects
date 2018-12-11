@@ -6,14 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.sql.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void scrape() throws SQLException {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
         ChromeDriver driver = new ChromeDriver(options);
@@ -26,45 +26,95 @@ public class Main {
 
         driver.findElement(By.id("login-passwd")).sendKeys("3eggWhites6Almonds" + Keys.ENTER);
 
-        Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
         driver.findElement(By.xpath("//*[@id=\"fin-tradeit\"]/div[2]/div/div/div[2]/button[2]")).click();
 
-        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
         driver.findElement(By.xpath("//*[@id=\"main\"]/section/section/div[2]/table/tbody/tr/td[1]/a")).click();
 
-        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
         driver.findElement(By.xpath("//*[@id=\"main\"]/section/section[1]/ul/li[2]/a")).click();
 
-        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
         // Portfolio Summary
 
-        String portfolioSummary = "";
+        List<String> portfolioSummary = new ArrayList<>();
 
-        String portfolioValue = driver.findElement(By.xpath("//*[@id=\"main\"]/section/header/div/div[1]/div/div[2]/p[1]")).getText() + ", ";
+        String netWorth = driver.findElement(By.xpath("//*[@id=\"main\"]/section/header/div/div[1]/div/div[2]/p[1]")).getText();
+
+        portfolioSummary.add(netWorth);
 
         String portfolioDayGain = driver.findElement(By.xpath("//*[@id=\"main\"]/section/header/div/div[1]/div/div[2]/p[2]/span")).getText();
 
         String array1[] = portfolioDayGain.split(" ");
 
-        portfolioDayGain = array1[0] + ", ";
+        portfolioDayGain = array1[0];
 
-        String portfolioDayGainPercent = array1[1] + ", ";
+        portfolioSummary.add(portfolioDayGain);
+
+        String portfolioDayGainPercentTemp = array1[1];
+        String dayGainPercentTemp = portfolioDayGainPercentTemp.replace("(", "");
+        String portfolioDayGainPercent = dayGainPercentTemp.replace(")", "");
+
+        portfolioSummary.add(portfolioDayGainPercent);
 
         String portfolioTotalGain = driver.findElement(By.xpath("//*[@id=\"main\"]/section/header/div/div[1]/div/div[2]/p[3]/span")).getText();
+        portfolioSummary.add(portfolioDayGain);
 
         String array2[] = portfolioTotalGain.split(" ");
 
-        portfolioTotalGain = array2[0] + ", ";
+        portfolioTotalGain = array2[0];
+        portfolioSummary.add(portfolioTotalGain);
 
-        String portfolioTotalGainPercent = array2[1];
+        String portfolioTotalGainPercentTemp = array2[1];
+        String totalGainPercentTemp = portfolioTotalGainPercentTemp.replace("(", "");
+        String portfolioTotalGainPercent = totalGainPercentTemp.replace(")", "");
+        portfolioSummary.add(portfolioTotalGainPercent);
 
-        portfolioSummary += portfolioValue + portfolioDayGain + portfolioDayGainPercent + portfolioTotalGain + portfolioTotalGainPercent;
+        System.out.println("net worth: " + netWorth + ", day gain: " + portfolioDayGain + ", day gain %: " + portfolioDayGainPercent
+        + ", total gain: " + portfolioTotalGain + ", total gain %: " + portfolioTotalGainPercent);
 
-        System.out.println(portfolioSummary);
+        // Create DB Connection
+        Connection conn = null;
+        Statement stmt = null;
+        try {
+            // db parameters
+            String url = "jdbc:sqlite:/Users/JuanCMontoya/Projects/IdeaProjects/JavaPrograms/YahooFinanceScraper/Raspador.db";
+            // create a connection to the database
+            conn = DriverManager.getConnection(url);
+
+            System.out.println("Connection to SQLite has been established.");
+
+            conn.setAutoCommit(false);
+
+            stmt = conn.createStatement();
+
+            String sql = "INSERT INTO snapshots(netWorth,dayGainChange,dayGainChangePercent,totalGainChange,totalGainChangePercent)VALUES (" + "'" + netWorth + "','" + portfolioDayGain + "','" + portfolioDayGainPercent + "','" + portfolioTotalGain + "','" + portfolioTotalGainPercent + "')";
+
+            System.out.println(sql);
+            stmt.executeUpdate(sql);
+
+            stmt.close();
+
+            conn.commit();
+
+            conn.close();
+
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (SQLException ex) {
+                System.out.println(ex.getMessage());
+            }
+        }
 
         // Portfolio Table
 
@@ -79,11 +129,8 @@ public class Main {
 
             if (tableColumns.size() > 0) {
                 for (WebElement tableColumn : tableColumns) {
-//                    stockData += tableColumn.getText() + ", ";
                     stockData.add(tableColumn.getText());
                 }
-
-//                String array3[] = stockData.split(", ");
 
                 String[] array4 = stockData.get(0).split("\n");
                 String symbol = array4[0];
@@ -105,16 +152,61 @@ public class Main {
                 String totalGainPriceChange = array7[0];
                 String totalGainPriceChangePercent = array7[1];
 
-                System.out.println(symbol + " " + lastPrice  + " " + priceChange + " " + priceChangePercent + " " +
-                        shares + " " + costBasis + " " + marketValue + " " + dayGainPriceChange + " " + dayGainPriceChangePercent + " " +
-                        totalGainPriceChange + " " + totalGainPriceChangePercent);
-//                System.out.println(stockData);
+//                System.out.println(symbol + " " + lastPrice  + " " + priceChange + " " + priceChangePercent + " " +
+//                        shares + " " + costBasis + " " + marketValue + " " + dayGainPriceChange + " " + dayGainPriceChangePercent + " " +
+//                        totalGainPriceChange + " " + totalGainPriceChangePercent);
+
+                // Create DB Connection
+                conn = null;
+//                stmt = null;
+                try {
+                    // db parameters
+                    String url = "jdbc:sqlite:/Users/JuanCMontoya/Projects/IdeaProjects/JavaPrograms/YahooFinanceScraper/Raspador.db";
+                    // create a connection to the database
+                    conn = DriverManager.getConnection(url);
+
+                    System.out.println("Connection to SQLite has been established.");
+
+                    conn.setAutoCommit(false);
+
+                    stmt = conn.createStatement();
+
+                    String sql = "INSERT INTO stocks(symbol,lastPrice,priceChange,priceChangePercent,shares,costBasis,marketValue,dayGainPriceChange,dayGainPriceChangePercent,totalGainPriceChange,totalGainPriceChangePercent)" +
+                            "VALUES (" + "'" + symbol + "','" + lastPrice + "','" + priceChange + "','" + priceChangePercent + "','" + shares + "','" + costBasis + "','" + marketValue + "','"
+                            + dayGainPriceChange + "','" + dayGainPriceChangePercent + "','" + totalGainPriceChange + "','" + totalGainPriceChangePercent + "')";
+
+                    System.out.println(sql);
+                    stmt.executeUpdate(sql);
+
+                    stmt.close();
+
+                    conn.commit();
+
+                    conn.close();
+
+                } catch (SQLException e) {
+                    System.out.println(e.getMessage());
+                } finally {
+                    try {
+                        if (conn != null) {
+                            conn.close();
+                        }
+                    } catch (SQLException ex) {
+                        System.out.println(ex.getMessage());
+                    }
+                }
+
             }
-//            stockData = "";
+
             stockData.clear();
+
         }
 
         driver.quit();
 
+    }
+
+    public static void main(String[] args) throws SQLException {
+        scrape();
     }
 }
